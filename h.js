@@ -95,8 +95,8 @@ var meshkaEnhancedModel = Class.extend({
             }, a.message = b, this.receive(a), !0) : !1
         }
         Models.chat.chatCommand = ChatModel.chatCommand
-        log('<span style="color:#FF0000"><i>Running IFZ Enhanced version ' + this.version.major + '.' + this.version.minor + '.' + this.version.patch + '</i></span>');
-        log('<span style="color:#FFFF00">Join our facebook group </span>: http://goo.gl/dpfv9')
+        log('<span style="color:#FF0000"><i>Running Super Enhanced version ' + this.version.major + '.' + this.version.minor + '.' + this.version.patch + '</i></span>');
+        log('<span style="color:#FFFF00">Minecraft:SC.MCDL.EU')
         if (plugCubed == undefined) $.getScript("http://tatdk.github.io/plugCubed/compiled/plugCubed.min.js")
 
     },
