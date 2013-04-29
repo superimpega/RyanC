@@ -157,9 +157,6 @@ var meshkaEnhancedModel = Class.extend({
         } else if (data.type == 'message' && (Models.room.data.staff[data.fromID] > 2 || data.fromID == "50aeb077877b9217e2fbff00") && data.message.indexOf('!rave off') === 0) {
             RoomUser.audience.lightsOut(false)
         }
-    
-};
-
-})(jQuery);
+    }
 });
 var meshkaEnhanced = new meshkaEnhancedModel;
